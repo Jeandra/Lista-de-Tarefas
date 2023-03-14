@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Helvetica;
-    background-image: linear-gradient(to right, #000428, #004e92, #000428);
-    color: #FFF;
+   
+    color: #ee1c1c;
     text-align: center;
     padding-top: 30px;
 }
@@ -26,12 +26,13 @@ body {
 
 #add-task-form input {
     box-sizing: border-box;
-    border: 1px solid #34073D;
+    border: 1px solid #FFF;
     background: #FFF;
     color: #34073D;
     padding: 15px;
     font-size: 18px;
     width: 100%;
+    
 }
 
 #add-task-form input:focus {
@@ -39,26 +40,24 @@ body {
 }
 
 #add-task-form input::placeholder {
-    color: #34073D;
+    color: #959196;
+    font-size: 16px;
 }
 
 #add-btn {
     position: absolute;
     background: #FFF;
-    border: 1px solid #34073D;
+    border:  #FFF;
     cursor: pointer;
     transition: .5s;
+    color: #212181;
     width: 60px;
-    height: 53px;
+    height: 60px;
     top: 0;
     right: 0;
-    padding-top: 3px;
+    padding: 17px;
 }
 
-#add-btn:hover {
-    background-color: #09E018;
-    color: #FFF;
-}
 
 ion-icon {
     font-size: 25px;
